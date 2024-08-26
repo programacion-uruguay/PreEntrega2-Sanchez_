@@ -1,0 +1,17 @@
+
+header, footer {
+  background: $gradient-bg; // Utiliza la variable del gradiente
+  box-shadow: $shadow-light;
+}
+
+footer {
+  padding: 2rem 0;
+  border-top: 1px solid #e9ecef;
+}
+
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    align-items: center;
+  }
+}

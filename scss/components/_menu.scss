@@ -1,0 +1,13 @@
+
+nav {
+  background: $gradient-bg; 
+  
+  .nav-link {
+    color: $white-color; 
+
+    &.active,
+    &:hover {
+      color: $white-color; 
+    }
+  }
+}

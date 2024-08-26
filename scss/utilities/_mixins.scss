@@ -1,0 +1,5 @@
+
+// utilities/_mixins.scss
+@mixin transition($properties...) {
+  transition: $properties;
+}

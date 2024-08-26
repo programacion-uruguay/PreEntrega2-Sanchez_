@@ -1,0 +1,31 @@
+
+.container, .modal-body {
+    max-width: $max-width;
+  }
+  
+  .container {
+    padding: 0 1rem;
+  }
+  
+  // Estilos para imágenes con carga diferida
+  img[loading="lazy"] {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  // Generación dinámica de botones
+  @for $i from 1 through 3 {
+    .button-#{$i} {
+      width: 100px * $i;
+      height: 50px;
+      background-color: if($i == 1, $primary-color, if($i == 2, $primary-color-dark, lighten($primary-color, 20%)));
+      color: #fff;
+      margin: 10px 0;
+  
+      &:hover {
+        background-color: darken($primary-color, 10% * $i);
+      }
+    }
+  }
+  

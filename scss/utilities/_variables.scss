@@ -1,0 +1,11 @@
+
+$primary-color: #007bff;
+$primary-color-dark: #0056b3;
+$white-color: #ffffff;
+$background-color: #f8f9fa;
+$gradient-bg: linear-gradient(90deg, $primary-color, $primary-color-dark); // Define el gradiente como variable
+$font-family: 'Roboto', sans-serif;
+$shadow-light: 0 4px 8px rgba(0, 0, 0, 0.1);
+$shadow-dark: 0 10px 20px rgba(0, 0, 0, 0.2);
+$max-width: 1200px;
+$social-icon-size: 30px;

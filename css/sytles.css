@@ -51,16 +51,6 @@ footer {
   border-radius: 0.5rem;
 }
 
-nav {
-  background: linear-gradient(90deg, #007bff, #0056b3);
-}
-nav .nav-link {
-  color: #ffffff;
-}
-nav .nav-link.active, nav .nav-link:hover {
-  color: #ffffff;
-}
-
 .container, .modal-body {
   max-width: 1200px;
 }
@@ -108,4 +98,4 @@ img[loading=lazy] {
   background-color: #003166;
 }
 
-/*# sourceMappingURL=styles.css.map */
+/*# sourceMappingURL=sytles.css.map */

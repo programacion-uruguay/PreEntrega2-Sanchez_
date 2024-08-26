@@ -1,0 +1,11 @@
+
+.btn-primary {
+    background-color: $primary-color;
+    border-color: $primary-color;
+    @include transition(background-color, 0.3s, ease);
+  
+    &:hover {
+      background-color: $primary-color-dark;
+    }
+  }
+  
