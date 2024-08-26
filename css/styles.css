@@ -1,10 +1,10 @@
 body {
     font-family: 'Roboto', sans-serif;
     background-color: #f8f9fa; 
-} 
+}
 
 header, footer {
-    background-color: #ffffff;
+    background: linear-gradient(90deg, #007bff, #0056b3); /* Degradado azul */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
@@ -41,7 +41,7 @@ footer {
 }
 
 .nav-link.active, .nav-link:hover {
-    color: #007bff; 
+    color: #ffffff; /* Cambiar a blanco para contraste en el degradado */
 }
 
 @media (max-width: 768px) {
@@ -58,4 +58,11 @@ footer {
 .social-icons img {
     width: 30px;
     margin: 0 0.5rem; 
+}
+
+/* Estilos para imágenes con carga diferida */
+img[loading="lazy"] {
+    display: block;
+    width: 100%;
+    height: auto;
 }
